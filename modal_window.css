@@ -83,6 +83,31 @@ html {
   .site-nav a:hover{
       background-color: #b4f0c4;
   }
+ 
+  /*Styling MENU button*/
+  .toggle-btn{
+    display: none;
+  }
+  @media screen and (max-width: 700px){
+     .toggle-btn-visible{
+      display: inline-block;
+      margin: 20px;
+      border: 3px solid #0b6323;
+      border-radius: 5px;
+      padding: 5px;
+      cursor: pointer;
+     
+
+    }
+    .toggle-target-hidden{
+      display: none;
+    }
+    .toggle-target-expanded{
+      display: block;
+    }
+  }
+  /*Styling MENU button ends*/
+
 
   /*New Changes End*/
 
